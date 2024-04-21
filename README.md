@@ -18,6 +18,9 @@ GeminiSQL prioritizes fast response times, ensuring users receive query results 
 
 # User Interface & Quering
 ![Screenshot 2024-04-21 144640](https://github.com/CipJusCodin/Query-To-SQL-Using-GenAI/assets/112339466/0ef0136a-0d17-4513-9fb4-aa609a9d4001)
+------
 ![Screenshot 2024-04-21 144541](https://github.com/CipJusCodin/Query-To-SQL-Using-GenAI/assets/112339466/079f6aed-c728-4ebc-9776-4e5b60bf5ed0)
+------
 ![Screenshot 2024-04-21 144522](https://github.com/CipJusCodin/Query-To-SQL-Using-GenAI/assets/112339466/26c8185e-aac7-445c-afc7-5580a335f6dd)
+------
 ![Screenshot 2024-04-21 144654](https://github.com/CipJusCodin/Query-To-SQL-Using-GenAI/assets/112339466/9e026647-84e8-406e-8d8d-347137587884)
