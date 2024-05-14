@@ -1,3 +1,6 @@
+# LIVE DEMO
+You can access the live demo here https://cipjuscodin-geminisql.streamlit.app/
+
 # Installation Instructions
 1. Begin by installing all the necessary libraries with ```pip install -r requirements.txt```
 2. Once the installation is complete, you can locally execute it by entering ```streamlit run app.py```
@@ -19,12 +22,3 @@ With GeminiSQL's intuitive interface, users can effortlessly input natural langu
 Upon receiving natural language queries, GeminiSQL processes them efficiently using Google's Gemini Pro model, generating corresponding SQL queries promptly. Users can retrieve data without the need for manual SQL syntax, streamlining the querying process for enhanced productivity.
 3. Fast Response Times:
 GeminiSQL prioritizes fast response times, ensuring users receive query results promptly. By harnessing the power of AI-driven natural language processing and Streamlit's rapid development framework, the application delivers a seamless user experience with minimal processing time.
-
-# User Interface & Quering
-![Screenshot 2024-04-21 144640](https://github.com/CipJusCodin/Query-To-SQL-Using-GenAI/assets/112339466/0ef0136a-0d17-4513-9fb4-aa609a9d4001)
-------
-![Screenshot 2024-04-21 144541](https://github.com/CipJusCodin/Query-To-SQL-Using-GenAI/assets/112339466/079f6aed-c728-4ebc-9776-4e5b60bf5ed0)
-------
-![Screenshot 2024-04-21 144522](https://github.com/CipJusCodin/Query-To-SQL-Using-GenAI/assets/112339466/26c8185e-aac7-445c-afc7-5580a335f6dd)
-------
-![Screenshot 2024-04-21 144654](https://github.com/CipJusCodin/Query-To-SQL-Using-GenAI/assets/112339466/9e026647-84e8-406e-8d8d-347137587884)
