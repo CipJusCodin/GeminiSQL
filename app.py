@@ -1,11 +1,13 @@
 from dotenv import load_dotenv
 load_dotenv()  # Load all the environment variables
-
 import streamlit as st
 import os
 import sqlite3
-
 import google.generativeai as genai
+import sqlite  # Importing sqlite.py module
+
+# Run sqlite.py when app.py is executed
+sqlite.main()  # Assuming sqlite.py has a main function
 
 # Configure Genai Key
 genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
