@@ -1,5 +1,5 @@
 # LIVE DEMO
-You can access the live demo here https://cipjuscodin-geminisql.streamlit.app/
+You can access the live demo here https://cipjuscodin-geminisql.streamlit.app/    (Working deployment last checked on 14-05-2024)
 
 # Installation Instructions
 1. Begin by installing all the necessary libraries with ```pip install -r requirements.txt```
