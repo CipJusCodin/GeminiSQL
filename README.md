@@ -1,6 +1,6 @@
-# Insatllation guide
-Create an environment. install libraries
-Create a .env file, run sqlite.py file first the app.py
+# Installation Instructions
+1. Begin by installing all the necessary libraries with ```pip install -r requirements.txt```
+2. Once the installation is complete, you can locally execute it by entering ```streamlit run app.py```
 
 # Introduction
 GeminiSQL is a revolutionary web application leveraging AI technology to simplify SQL querying through natural language input. Designed with usability and efficiency in mind, GeminiSQL provides users with a seamless experience for executing SQL queries effortlessly. Whether you're a seasoned SQL developer or a newcomer to database querying, GeminiSQL offers a user-friendly interface powered by Google's Gemini Pro model, making database interaction intuitive and accessible.
