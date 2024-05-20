@@ -32,10 +32,15 @@ GeminiSQL prioritizes fast response times, ensuring users receive query results 
 
 # Database Schema
 The application uses a single table named STUDENT to store student records:
+
 Columns:
+
 NAME - VARCHAR(25)
+
 CLASS - VARCHAR(25)
+
 SECTION - VARCHAR(25)
+
 MARKS - INT
 
 # Troubleshooting
