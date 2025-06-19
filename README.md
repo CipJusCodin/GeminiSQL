@@ -1,52 +1,114 @@
-# LIVE DEMO
-You can access the live demo here https://cipjuscodin-geminisql.streamlit.app/    
-(Working deployment last checked on 14-05-2024)
+# GeminiSQL
 
-# Installation Instructions
-1. Begin by installing all the necessary libraries with ```pip install -r requirements.txt```
-2. Create a file named ```.env``` in the cloned repository and  type ```GOOGLE_API_KEY="Your api key"```
-3. Once the installation is complete, you can locally execute it by entering ```streamlit run app.py```
+<div align="center">
+  <img src="https://img.shields.io/badge/Python-3.7%2B-blue" alt="Python Version">
+  <img src="https://img.shields.io/badge/Streamlit-1.0%2B-FF4B4B" alt="Streamlit">
+  <img src="https://img.shields.io/badge/License-MIT-green" alt="License">
+  <img src="https://img.shields.io/badge/Status-Active-success" alt="Status">
+</div>
 
-# Introduction
-GeminiSQL is a revolutionary web application leveraging AI technology to simplify SQL querying through natural language input. Designed with usability and efficiency in mind, GeminiSQL provides users with a seamless experience for executing SQL queries effortlessly. Whether you're a seasoned SQL developer or a newcomer to database querying, GeminiSQL offers a user-friendly interface powered by Google's Gemini Pro model, making database interaction intuitive and accessible.
+<p align="center">
+  <strong>Convert natural language queries to SQL using Google's Gemini AI</strong>
+</p>
 
-# Features
+## 📋 Table of Contents
+- [Overview](#overview)
+- [Features](#features)
+- [Demo](#demo)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Environment Variables](#environment-variables)
+- [Database Schema](#database-schema)
+- [How It Works](#how-it-works)
+- [Contributing](#contributing)
+- [License](#license)
 
-+ Natural Language SQL Querying: GeminiSQL allows users to input SQL queries in natural language, abstracting away the complexities of traditional query syntax. With the power of Google's Gemini Pro model, users can simply type or speak their queries, enabling rapid data retrieval without the need for extensive SQL knowledge.
-+ Streamlit Powered Backend: Developed using Python and Streamlit, GeminiSQL's backend ensures smooth operation and rapid deployment. Streamlit's intuitive framework accelerates development, facilitating seamless integration of AI-powered natural language processing into the application.
-+ Efficient Database Management with SQLite: GeminiSQL utilizes SQLite for its database backend, offering simplicity and compatibility for storing and retrieving data. A single table named STUDENT is designed to store student records, featuring columns for name, class, section, and marks, ensuring efficient data management for various use cases.
-# Functionality Overview
-GeminiSQL caters to both novices and experts in SQL querying, offering a user-friendly interface and powerful backend capabilities.
+## 🔍 Overview
+GeminiSQL is a powerful tool that bridges the gap between natural language and SQL queries. Using Google's Gemini AI, it allows users to interact with databases using plain English, making database querying accessible to non-technical users.
 
-1. Intuitive User Interface:
-With GeminiSQL's intuitive interface, users can effortlessly input natural language queries and receive SQL responses in real-time. The interface features input fields for query submission and dynamic content generation, ensuring a seamless interaction experience.
-2. Efficient Query Processing:
-Upon receiving natural language queries, GeminiSQL processes them efficiently using Google's Gemini Pro model, generating corresponding SQL queries promptly. Users can retrieve data without the need for manual SQL syntax, streamlining the querying process for enhanced productivity.
-3. Fast Response Times:
-GeminiSQL prioritizes fast response times, ensuring users receive query results promptly. By harnessing the power of AI-driven natural language processing and Streamlit's rapid development framework, the application delivers a seamless user experience with minimal processing time.
+## ✨ Features
+- **Natural Language Processing**: Convert English questions to SQL queries
+- **Real-time Results**: Instantly view query results in the Streamlit interface
+- **SQLite Integration**: Works with SQLite databases out of the box
+- **User-friendly Interface**: Simple, intuitive design for ease of use
+- **Sample Database**: Comes with a pre-configured student database for testing
 
-# Architecture
-+ Frontend: Built using Streamlit to provide a responsive and interactive user interface.
-+ Backend: Utilizes SQLite for database management and Google's Gemini Pro model for natural language processing.
-+ Integration: Seamlessly integrates natural language processing with SQL querying, providing an intuitive user experience.
+## 🎬 Demo
+Try out the live demo: [GeminiSQL Demo](https://cipjuscodin-geminisql.streamlit.app/)
 
-# Database Schema
-The application uses a single table named STUDENT to store student records:
+**Example queries:**
+- "Show me all students in Data Science class"
+- "What's the average marks of students in section A?"
+- "List all students with marks above 80"
+- "Count how many students are in each class"
+- "Retrieve names of all students containing letter J"
 
-Columns:
+## 🚀 Installation
 
-NAME - VARCHAR(25)
+### Prerequisites
+- Python 3.7 or higher
+- Google Gemini API key
 
-CLASS - VARCHAR(25)
+### Steps
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/CipJusCodin/GeminiSQL.git
+   cd GeminiSQL
+   ```
 
-SECTION - VARCHAR(25)
+2. Install the required packages:
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-MARKS - INT
+3. Create a `.env` file in the root directory with your Google Gemini API key:
+   ```
+   GOOGLE_API_KEY=your_api_key_here
+   ```
 
-# Troubleshooting
-1. Database Initialization Issues:
-Ensure that sqlite.py is executed successfully to initialize the database.
-2. API Key Errors:
-Verify that the Google API key is correctly set in the .env file.
-3. Dependency Problems:
-Run pip install -r requirements.txt to install all required dependencies.
+## 🖥️ Usage
+1. Run the Streamlit application:
+   ```bash
+   streamlit run app.py
+   ```
+
+2. Open your web browser and navigate to `http://localhost:8501`
+
+3. Enter your question in natural language and click "Ask the question"
+
+## 🔐 Environment Variables
+- `GOOGLE_API_KEY`: Your Google Gemini API key
+
+## 📊 Database Schema
+The application uses a SQLite database with a sample `STUDENT` table:
+
+| Column  | Type      | Description            |
+|---------|-----------|------------------------|
+| NAME    | VARCHAR   | Student name           |
+| CLASS   | VARCHAR   | Class name (e.g., Data Science, DEVOPS) |
+| SECTION | VARCHAR   | Class section (A, B, C) |
+| MARKS   | INTEGER   | Student's marks        |
+
+## ⚙️ How It Works
+1. **User Input**: The user submits a natural language question through the Streamlit interface
+2. **AI Processing**: Google's Gemini AI model interprets the question and generates an appropriate SQL query
+3. **Database Query**: The generated SQL query is executed against the SQLite database
+4. **Result Display**: The query results are formatted and displayed in the Streamlit interface
+
+## 🤝 Contributing
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add some amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
+
+## 📄 License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+---
+
+<div align="center">
+  <p>Created with ❤️ by <a href="https://github.com/CipJusCodin">CipJusCodin</a></p>
+</div>
