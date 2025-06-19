@@ -23,7 +23,7 @@
 - [Contributing](#contributing)
 - [License](#license)
 
-## 🔍 Overview
+## 1. Overview
 GeminiSQL is a powerful tool that bridges the gap between natural language and SQL queries. Using Google's Gemini AI, it allows users to interact with databases using plain English, making database querying accessible to non-technical users.
 
 ## ✨ Features
