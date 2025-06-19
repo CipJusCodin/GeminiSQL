@@ -23,7 +23,7 @@
 - [Contributing](#contributing)
 - [License](#license)
 
-## 1. Overview
+## ✅ Overview
 GeminiSQL is a powerful tool that bridges the gap between natural language and SQL queries. Using Google's Gemini AI, it allows users to interact with databases using plain English, making database querying accessible to non-technical users.
 
 ## ✨ Features
@@ -76,7 +76,7 @@ Try out the live demo: [GeminiSQL Demo](https://cipjuscodin-geminisql.streamlit.
 
 3. Enter your question in natural language and click "Ask the question"
 
-## Environment Variables
+## 👉 Environment Variables
 - `GOOGLE_API_KEY`: Your Google Gemini API key
 
 ## 📊 Database Schema
