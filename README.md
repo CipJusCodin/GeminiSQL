@@ -76,7 +76,7 @@ Try out the live demo: [GeminiSQL Demo](https://cipjuscodin-geminisql.streamlit.
 
 3. Enter your question in natural language and click "Ask the question"
 
-## 🔐 Environment Variables
+## Environment Variables
 - `GOOGLE_API_KEY`: Your Google Gemini API key
 
 ## 📊 Database Schema
