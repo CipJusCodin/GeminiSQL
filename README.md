@@ -17,7 +17,6 @@
 ## Table of Contents
 - [Overview](#overview)
 - [Features](#features)
-- [Demo](#demo)
 - [Project Structure](#project-structure)
 - [Installation](#installation)
 - [Usage](#usage)
@@ -36,16 +35,6 @@ GeminiSQL is a powerful tool that bridges the gap between natural language and S
 - SQLite Integration: Works with SQLite databases out of the box
 - User-friendly Interface: Simple, intuitive design for ease of use
 - Sample Database: Comes with a pre-configured student database for testing
-
-## Demo
-Try out the live demo: [GeminiSQL Demo](https://cipjuscodin-geminisql.streamlit.app/)
-
-Example queries:
-- "Show me all students in Data Science class"
-- "What's the average marks of students in section A?"
-- "List all students with marks above 80"
-- "Count how many students are in each class"
-- "Retrieve names of all students containing letter J"
 
 ## Project Structure
 ```
