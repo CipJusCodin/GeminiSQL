@@ -7,7 +7,6 @@
   <img src="https://img.shields.io/badge/SQLite-Database-003B57" alt="SQLite Database">
   <img src="https://img.shields.io/badge/python--dotenv-Env%20Vars-4EAA25" alt="python-dotenv">
   <img src="https://img.shields.io/badge/License-MIT-green" alt="License">
-  <img src="https://img.shields.io/badge/Status-Active-success" alt="Status">
 </div>
 
 <p align="center">
