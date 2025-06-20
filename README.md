@@ -3,6 +3,9 @@
 <div align="center">
   <img src="https://img.shields.io/badge/Python-3.7%2B-blue" alt="Python Version">
   <img src="https://img.shields.io/badge/Streamlit-1.0%2B-FF4B4B" alt="Streamlit">
+  <img src="https://img.shields.io/badge/Google%20GenerativeAI-Gemini-yellow" alt="Google Generative AI (Gemini)">
+  <img src="https://img.shields.io/badge/SQLite-Database-003B57" alt="SQLite Database">
+  <img src="https://img.shields.io/badge/python--dotenv-Env%20Vars-4EAA25" alt="python-dotenv">
   <img src="https://img.shields.io/badge/License-MIT-green" alt="License">
   <img src="https://img.shields.io/badge/Status-Active-success" alt="Status">
 </div>
@@ -15,6 +18,7 @@
 - [Overview](#overview)
 - [Features](#features)
 - [Demo](#demo)
+- [Project Structure](#project-structure)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Environment Variables](#environment-variables)
@@ -42,6 +46,17 @@ Try out the live demo: [GeminiSQL Demo](https://cipjuscodin-geminisql.streamlit.
 - "List all students with marks above 80"
 - "Count how many students are in each class"
 - "Retrieve names of all students containing letter J"
+
+## 🗂️ Project Structure
+```
+GeminiSQL/
+├── app.py                  # Main Streamlit application entry point
+├── sqlite.py               # SQLite database setup and initialization
+├── requirements.txt        # Python dependencies
+├── README.md               # Project documentation
+├── .env                    # (Should be created by user, stores secrets like API keys)
+├── student.db              # SQLite database file (created at runtime)
+```
 
 ## 🚀 Installation
 
@@ -107,8 +122,3 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 ## 📄 License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
----
-
-<div align="center">
-  <p>Created with ❤️ by <a href="https://github.com/CipJusCodin">CipJusCodin</a></p>
-</div>
