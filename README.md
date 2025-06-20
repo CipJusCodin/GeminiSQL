@@ -14,7 +14,7 @@
   <strong>Convert natural language queries to SQL using Google's Gemini AI</strong>
 </p>
 
-## 📋 Table of Contents
+## Table of Contents
 - [Overview](#overview)
 - [Features](#features)
 - [Demo](#demo)
@@ -27,27 +27,27 @@
 - [Contributing](#contributing)
 - [License](#license)
 
-## ✅ Overview
+## Overview
 GeminiSQL is a powerful tool that bridges the gap between natural language and SQL queries. Using Google's Gemini AI, it allows users to interact with databases using plain English, making database querying accessible to non-technical users.
 
-## ✨ Features
-- **Natural Language Processing**: Convert English questions to SQL queries
-- **Real-time Results**: Instantly view query results in the Streamlit interface
-- **SQLite Integration**: Works with SQLite databases out of the box
-- **User-friendly Interface**: Simple, intuitive design for ease of use
-- **Sample Database**: Comes with a pre-configured student database for testing
+## Features
+- Natural Language Processing: Convert English questions to SQL queries
+- Real-time Results: Instantly view query results in the Streamlit interface
+- SQLite Integration: Works with SQLite databases out of the box
+- User-friendly Interface: Simple, intuitive design for ease of use
+- Sample Database: Comes with a pre-configured student database for testing
 
-## 🎬 Demo
+## Demo
 Try out the live demo: [GeminiSQL Demo](https://cipjuscodin-geminisql.streamlit.app/)
 
-**Example queries:**
+Example queries:
 - "Show me all students in Data Science class"
 - "What's the average marks of students in section A?"
 - "List all students with marks above 80"
 - "Count how many students are in each class"
 - "Retrieve names of all students containing letter J"
 
-## 🗂️ Project Structure
+## Project Structure
 ```
 GeminiSQL/
 ├── app.py                  # Main Streamlit application entry point
@@ -58,7 +58,7 @@ GeminiSQL/
 ├── student.db              # SQLite database file (created at runtime)
 ```
 
-## 🚀 Installation
+## Installation
 
 ### Prerequisites
 - Python 3.7 or higher
@@ -81,7 +81,7 @@ GeminiSQL/
    GOOGLE_API_KEY=your_api_key_here
    ```
 
-## 🖥️ Usage
+## Usage
 1. Run the Streamlit application:
    ```bash
    streamlit run app.py
@@ -91,10 +91,10 @@ GeminiSQL/
 
 3. Enter your question in natural language and click "Ask the question"
 
-## 👉 Environment Variables
+## Environment Variables
 - `GOOGLE_API_KEY`: Your Google Gemini API key
 
-## 📊 Database Schema
+## Database Schema
 The application uses a SQLite database with a sample `STUDENT` table:
 
 | Column  | Type      | Description            |
@@ -104,13 +104,13 @@ The application uses a SQLite database with a sample `STUDENT` table:
 | SECTION | VARCHAR   | Class section (A, B, C) |
 | MARKS   | INTEGER   | Student's marks        |
 
-## ⚙️ How It Works
-1. **User Input**: The user submits a natural language question through the Streamlit interface
-2. **AI Processing**: Google's Gemini AI model interprets the question and generates an appropriate SQL query
-3. **Database Query**: The generated SQL query is executed against the SQLite database
-4. **Result Display**: The query results are formatted and displayed in the Streamlit interface
+## How It Works
+1. User Input: The user submits a natural language question through the Streamlit interface
+2. AI Processing: Google's Gemini AI model interprets the question and generates an appropriate SQL query
+3. Database Query: The generated SQL query is executed against the SQLite database
+4. Result Display: The query results are formatted and displayed in the Streamlit interface
 
-## 🤝 Contributing
+## Contributing
 Contributions are welcome! Please feel free to submit a Pull Request.
 
 1. Fork the repository
@@ -119,6 +119,11 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
-## 📄 License
+## License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
+---
+
+<div align="center">
+  <p>Created with ❤️ by <a href="https://github.com/CipJusCodin">CipJusCodin</a></p>
+</div>
